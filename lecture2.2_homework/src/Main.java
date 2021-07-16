@@ -11,8 +11,9 @@ public class Main {
 	 person1.id=1;
 	 person1.name="Şevval";
 	 
-
-	 System.out.println("Kaydedildi: "+person1.name);
+	PersonManager personManager=new PersonManager();
+	personManager.register(person1);
+		
 	}
 
 }
